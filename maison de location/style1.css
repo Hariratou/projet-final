@@ -1,0 +1,106 @@
+.en-tête{
+    display: flex;
+    justify-content: space-around;
+    background-color: #002e60;
+    color: #ffffff;
+}
+.en-tête:hover{
+    color: #d8a765;
+}
+.contact{
+    text-align: center;
+}
+.image{
+    margin: 20px;
+    text-align: center;
+}
+.image1:hover{
+    color:  #d8a765;
+}
+.pied-page{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    text-align: center;
+    background-color: #002e60;
+   
+}
+.pied{
+    margin-top: 20px;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+select{
+    height: 50px;
+    width: 611px;
+}
+input{
+    height: 50px;
+    width: 600px;
+}
+.piece{
+text-align: center;
+padding-top: 20px;
+}
+.nom{
+    margin-top: 20px;
+}
+.nom1{
+    margin-top: 20px;
+}
+.nom2{
+    margin-top: 20px;
+}
+.nom3{
+    margin-top: 20px;
+}
+.nom4{
+    margin-top: 20px;
+}
+.envoye{
+    text-align: center;
+    color: #ffffff;
+    background-color: #c17918;
+    margin-right: 900px;
+    margin-left: 900px;
+    border-radius: 80px;
+}
+@media all and (max-width:1024px){
+    .en-tête{
+     display: flexbox;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: x-small;
+     background-color: #d8a765 ;
+    }
+    .pied-page{  
+        font-size: x-small;
+        background-color: #d8a765 ;
+    }
+    .photo{
+        width: 900px;
+        width: 400px;
+    }
+    .contact{
+        font-size: x-small;
+    }
+    .contact1{
+        font-size: x-small;
+    }
+}
+@media all and (max-width:800px){
+    .en-tête{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+    } 
+    .photo{
+        width: 900px;
+        width: 400px;
+    }
+}

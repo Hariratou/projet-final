@@ -1,0 +1,200 @@
+body{
+    
+    background: #585c68;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.bold{
+    font-weight: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #23F4FF;
+    border-radius:  10px 10px 10px;
+    
+}
+.semi_bold{
+    font-weight: 500px;
+    font-size: 16px;
+}
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resume .resume_left{
+    width: 280px;
+    background: #eeaa82;
+    border-radius: 50px  0 0;
+}
+.resume .resume_left .resume_profile{
+    width: 100%;
+    height: 280px;
+    
+}
+.resume .resume_left .resume_profile img{
+    width: 90%;
+    border-radius: 150px;
+}
+.resume .resume_left .resume_content{
+ padding: 0px 25px;
+ color: #5b5652;
+}
+.resume .titre{
+    margin-bottom: 10px;
+}
+.bol{
+     color: rgb(7, 7, 7); 
+     border: 2px solid rgb(255, 255, 255);
+     padding:auto;
+     width: auto;
+     border-radius: 10px;
+     background-image: linear-gradient(to bottom left, #fdffff,#eeaa82);
+ 
+}
+.resume .resume_left .regular{
+    color: #b1eaff;
+}
+.resume .resume_item{
+    padding: 25px 0;
+    border-bottom: 2px solid #5b5652;
+} 
+.resume  .resume_item .resume_left:last-child{
+ border-bottom: 0px;
+}
+.resume  .resume_item ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resume  .resume_item ul li:last-child{
+margin-bottom: 0;
+}
+.resume  .resume_item ul li .data{
+    color: #5b5652;
+}
+.resume .resume_left ul li{
+    color: #5b5652;
+    justify-content: space-between;
+}
+.resume .resume_left ul li .competence_name{
+   margin-right: 35px;
+    width: 20%;
+}
+.resume .resume_left ul li .competence_progress{
+    width: 20%;
+    margin: 0px 5px;
+    height: 5px;
+    background: #5b5652;
+    position: relative;
+}
+.resume .resume_left ul li .competence_per{
+    width: 25%;
+}
+.resume .resume_left ul li .competence_progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+.resume .resume_right{
+    width: 600px;
+    background: #fff;
+    padding: 15px;
+}
+.resume .resume_right .date{
+    font-size: 15px;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
+.resume .resume_right .semi-info{
+    font-size: 15px;
+}
+.resume .resume_right .semi-bol{
+    font-size: 15px;
+}
+.resume .resume_right .bol{
+    font-size: 15px;
+}
+.resume .resume_right:last-child .info{
+    margin-bottom: 0;
+}
+.resume .resume_right .tille{
+    background: #23F4FF;
+    border-radius: 50px 50px 50px;
+    padding: 10px;
+ }
+@media all and (max-width: 1024px){
+    .resume .resume_left {
+        flex-direction: column;
+        width: 100%; 
+    }
+    .resume .resume_right{
+        display: block;
+        width: 100%;
+        
+    }
+    .resume {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .resume .resume_item {
+        margin-top: 10px;
+        margin: 20px;
+    }
+    .resume .resume_left .resume_content{ 
+        padding-bottom: 400px;
+    }
+    .resume .resume_left .resume_profile img{
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    .resume .resume_item .resume_centre_interet{
+        margin-top: 10px;
+    }
+}
+@media all and (max-width:800px){
+.resume .resume_left {
+    display: block;
+    width: 100%
+}
+.resume .resume_right{
+    display: block;
+    width: 100%;
+}
+.resume {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.resume .resume_item {
+    margin-top: 10px;
+    margin: 20px;
+}
+.resume .resume_left .resume_content{ 
+    padding-bottom: 400px;
+}
+.resume .resume_left .resume_profile img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.resume .resume_item .resume_centre_interet{
+    margin-top: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

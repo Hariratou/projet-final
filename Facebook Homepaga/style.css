@@ -1,0 +1,160 @@
+body{
+    background: #edf0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.en-tête{
+    background-color: #3b5b98;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.en-tête{
+  display: flex;
+  justify-content: space-between;
+}
+.face{
+    color: #ffffff;
+}
+.en-tête1{
+    display: flex;
+}
+.mail{
+    color: #ffffff;
+    font-size: x-small;
+}
+.word{
+    color: #ffffff;
+    font-size: x-small;
+}
+.for{
+    color: #ffffff;
+    font-size: 8px;
+}
+.log{
+    color: #ffffff;
+    background-color: #718bbb;
+    border: 1px solid #718bbb;
+}
+.element{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.conte{
+    display: flex;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vue{
+    display: flex;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.voir{
+    display: flex;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.were{
+    font-weight: bold;
+}
+.you{
+    font-weight: bold;
+}
+.strong{
+    font-weight: bold;
+}
+.gauche{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.from{
+    font-size: 10px;
+}
+.me{
+    font-size: 10px;
+}
+.rong{
+    font-size: 10px;
+}
+.time{
+    display: flex;
+}
+.temp{
+    margin-top: 10px;
+}
+.ordre{
+  margin-top: 10px; 
+}
+.info{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info1{
+    color: #6f8fce;
+}
+.in{
+    color: #6f8fce;
+}
+.sing{
+    color: #ffffff;
+    background-color: #5c9549;
+    text-align: center;
+
+   margin-right: 90px;
+    border-radius: 4px;
+}
+.for{
+    font-size: 10px;
+     color: #7b7d7d;
+}
+.blue{
+    color: #0b3486;
+}
+.page{
+    font-size: small;
+}
+.gender{
+    font-size: x-small;
+}
+.birthday{
+    font-size: x-small;
+}
+.font{
+    font-size: x-small;
+}
+.droite1{
+    font-size: 20px;
+}
+@media all and (max-width:1024px){
+    .en-tête{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+        background-color: #a4a7aa;
+    }
+    .gauche{
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 10px;
+    }
+    .contenu1{
+        font-size: small;
+    }
+    .droite1{
+        font-size: small;
+    }
+}
+
+
+  
+
+

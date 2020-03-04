@@ -1,0 +1,156 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.en-tête0{
+    display: flex;
+    justify-content: space-around;
+}
+.en-tête1{
+    display: flex;
+}
+a:visited{
+    color: #666666;
+}
+.en-tête{
+    display: flex;
+    justify-content: space-between;
+    background-color: #002e60;
+    margin: 30px;
+    padding-right: 10px;
+}
+.tête{
+    color: #ffffff;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.tête:hover{
+    background-color: #d8a765;
+}
+.test{
+    text-align: center;
+    font-size: large;
+}
+.texte{
+    background-color: #e6e6e6;
+}
+.PUB{
+    text-align: center;
+}
+.PUB:hover{
+    color: #d8a765;
+}
+.pub1{
+    text-align: center;
+}
+.cherche{
+    color: #ffffff;
+    background-color: #d8a765;
+    border-radius: 8px;
+}
+input{
+    height: 25px;
+    width: 100px;
+    border-radius: 6px;
+}
+select{
+    height: 25px;
+    width: 100px;
+}
+.info0{
+   justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.aligne{
+    margin-top: 1px;
+}
+.aligne1{
+    margin-top: 1px;
+    background-color: #d8a765;
+    border-radius: 8px;
+}
+.aligne{
+    text-align: center;
+}
+.indication:hover{
+    color: #d8a765;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.indication1:hover{
+       color: #d8a765;
+}
+.photo{
+    margin-top: 20px;
+}
+.contact{
+    text-align: center;
+}
+.pied-page{
+    display: flex;
+    justify-content: space-around;
+    background-color: #002e60;
+}
+.pied{
+    margin-top: 30px;
+    text-align: center;
+}
+.pied1{
+    text-align: center;
+    color: #ffffff;
+}
+.contact:hover{
+    color: #d8a765;
+}
+.photo{
+    text-align: center;
+}
+@media all and (max-width:1024px){
+    .en-tête{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+        background-color: #d8a765 ;
+    }
+    .en-tête0{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .info{
+        flex-direction: column;
+        font-size: x-small;
+    }
+    .pied-page{  
+         background-color: #d8a765 ;
+    }
+}
+@media all and (max-width:800px){
+    .en-tête{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+    }
+    .pied-page{  
+        font-size: x-small;
+        }
+        .info{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        font-size: x-small;
+}
+
+
+
+

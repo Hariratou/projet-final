@@ -1,0 +1,95 @@
+.en-tête{
+    display: flex;
+    justify-content: flex-end;
+}
+.sign-in{
+    color: #ffffff;
+    background-color: blue;
+    margin-bottom: 12px;
+}
+.bloc1{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    text-align: center;
+    font-size: small;
+}
+.bloc{
+    margin-top: 10px ;
+    margin-bottom: 0px;
+}
+.logo{
+    margin-left: -40px;    
+}
+#pseudo{
+    margin-left: 0px;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-radius: 80px;
+    color: #f4f4f4;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+.google1{
+     background-color: #dcdcdc;
+     padding: 9px;
+}
+.bleu{
+    color: #2b23b2;
+}
+footer{
+      position: fixed;
+      bottom: 0px;
+      background-color: gainsboro;
+      width: 100%;
+}
+.info{
+    font-size: small;
+}
+.pied-page{
+    justify-content: space-between;
+    display: flex;
+    border-top: 1px solid #f4f4f4;
+}
+.gauche{
+    display: flex;
+    font-size: small;
+}
+.droite{
+    display: flex;
+    font-size: small;
+}
+@media screen and (max-width: 1024px){
+    .bloc1{
+        margin-top: 100px;
+    }
+    .en-tête{
+       font-size: 10px;
+    }
+    .info{
+        font-size: x-small;
+    }
+    .gauche{
+        font-size: x-small;
+        text-align: left;
+    }
+    .droite{
+        font-size: x-small;
+        text-align: left;
+    }
+}
+
+    
+
+
+
+
+
+
